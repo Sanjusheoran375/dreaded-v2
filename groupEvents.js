@@ -33,7 +33,7 @@ const Events = async (client, Fortu) => {
                 let userName2 = num;
 
                 let Lefttext = `
-          Good bye @${userName2.split("@")[0]} 👋, probably not gonna miss you `;
+          Good bye @${userName2.split("@")[0]} 👋, JANE WALE KO KON ROK SKTA H  `;
                 if (events === 'true') {
                     await client.sendMessage(Fortu.id, {
                         image: { url: dpuser },
