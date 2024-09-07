@@ -171,7 +171,7 @@ if(presence === 'online')
   };
 
   
-  client.public = true;
+  client.public = false;
 
   client.serializeM = (m) => smsg(client, m, store);
 
