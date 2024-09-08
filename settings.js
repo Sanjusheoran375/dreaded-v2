@@ -7,12 +7,12 @@ const session = process.env.SESSION || '';
 
 const prefix = process.env.PREFIX || '.';
 const mycode = process.env.CODE || "254";
-const author = process.env.STICKER_AUTHOR || 'fortunatus';
-const packname = process.env.PACKNAME || 'dreaded md2 🤖';
+const author = process.env.STICKER_AUTHOR || 'SANJU THE ROCK';
+const packname = process.env.PACKNAME || 'SANJU THE ROCK';
 const dev = process.env.DEV || '919728714060';
 const DevDreaded = dev.split(",");
-const botname = process.env.BOTNAME || 'DREADED';
-const mode = process.env.MODE || 'public';
+const botname = process.env.BOTNAME || 'SANJU THE ROCK';
+const mode = process.env.MODE || 'self';
 const gcpresence = process.env.GC_PRESENCE || 'true';
 const antionce = process.env.ANTIVIEWONCE || 'true';
 const sessionName = "session";
@@ -22,7 +22,7 @@ const antitag = process.env.ANTITAG || 'true';
 const antidelete = process.env.ANTIDELETE || 'true';
 const autoview = process.env.AUTOVIEW_STATUS || 'true';
 const autoread = process.env.AUTOREAD || 'true';
-const autobio = process.env.AUTOBIO || 'true';
+const autobio = process.env.AUTOBIO || 'false';
 
 module.exports = {
   sessionName,
