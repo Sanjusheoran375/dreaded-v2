@@ -141,7 +141,7 @@ await gcPresence(client, m, gcpresence);
 await antitaggc(client, m, isBotAdmin, itsMe, isAdmin, Owner, body, antitag);
 
 
-    const command = cmd ? body.replace(prefix, "").trim().split(/ +/).shift().toLowerCase() : null;
+    const command = cmd ? body.replace(prefix, ".").trim().split(/ +/).shift().toLowerCase() : null;
 
         if (commands[command]) {
     await commands[command](context);
